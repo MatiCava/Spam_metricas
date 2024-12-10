@@ -34,3 +34,4 @@
 ## Consideraciones importantes
 - Tarea gratuita: Si usas una cuenta gratuita, la tarea caducará en aproximadamente un mes. Tendrás que recrearla periódicamente.
 - Tarea recurrente: Con una cuenta paga, puedes configurar una tarea recurrente sin esta limitación.
+- Completar los 3 recipients porque sino fallara y son 3 porque casualmente tenemos 3 supervisores.
