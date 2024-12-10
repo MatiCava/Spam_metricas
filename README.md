@@ -9,13 +9,11 @@
 
 ## 4. Crear una cuenta en [PythonAnywhere](https://www.pythonanywhere.com)
 - Accede a la sección de **Consoles** y crea una nueva consola.
-- Ejecuta los siguientes comandos para configurar el entorno y las dependencias:
+- Ejecuta el siguiente comandos para configurar las dependencias:
    ```bash
-  mkvirtualenv spam_metricas --python=python3.10
-  workon spam_metricas
-  pip install schedule
+  pip3 install --user schedule
 
-<img width="1312" alt="image" src="https://github.com/user-attachments/assets/3751440f-fa9b-48a0-a291-4f9333a5ecdc">
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/f6b61109-d778-41ac-aaf5-e0a959f63c75">
 
 ## 6. Subir archivos al directorio
 - En PythonAnywhere, dirígete a la sección Files.
@@ -27,7 +25,7 @@
 ## 7. Crear una tarea en PythonAnywhere
 - Accede a la sección **Tasks**.
 - Crea una tarea para ejecutar el script diariamente.
-- Nota: La tarea utiliza el horario UTC. Se recomienda configurarla a las 08:30 UTC, ya que el primer correo se enviará a las 09:00 UTC.
+- Nota: La tarea utiliza el horario UTC. Se recomienda configurarla a las 11:50 UTC, ya que el primer correo se enviará a las 09:00.
 
 <img width="1166" alt="image" src="https://github.com/user-attachments/assets/5ae11cd4-10fa-4215-a226-e424c2628d27">
 
