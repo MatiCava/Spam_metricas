@@ -25,7 +25,7 @@
 ## 7. Crear una tarea en PythonAnywhere
 - Accede a la sección **Tasks**.
 - Crea una tarea para ejecutar el script diariamente.
-- Nota: La tarea utiliza el horario UTC. Se recomienda configurarla a las 11:50 UTC, ya que el primer correo se enviará a las 09:00.
+- Nota: La tarea utiliza el horario UTC. Se recomienda configurarla a las 12:00 UTC, asi se enviarán todos los correos a las 09:00.
 
 <img width="1166" alt="image" src="https://github.com/user-attachments/assets/5ae11cd4-10fa-4215-a226-e424c2628d27">
 
