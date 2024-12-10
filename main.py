@@ -78,11 +78,16 @@ def send_email():
         smtp_server.login(SENDER, APP_PASSWORD)
         smtp_server.sendmail(SENDER, recipients, msg.as_string())
 
-schedule.every().day.at("09:00").do(check_dia_laboral)
-schedule.every().day.at("12:00").do(check_dia_laboral)
-schedule.every().day.at("15:00").do(check_dia_laboral)
-schedule.every().day.at("18:00").do(check_dia_laboral)
+check_dia_laboral()
+check_dia_laboral()
+check_dia_laboral()
+check_dia_laboral()
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# schedule.every().day.at("09:00").do(check_dia_laboral)
+# schedule.every().day.at("12:00").do(check_dia_laboral)
+# schedule.every().day.at("15:00").do(check_dia_laboral)
+# schedule.every().day.at("18:00").do(check_dia_laboral)
+
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
